@@ -1,0 +1,51 @@
+.t1head  {
+    font-size: 15px; /* set the font size */
+    font-weight: bold; /* set the font weight to bold */
+    text-align: center; /* center align the text */
+    margin-bottom: 20px; /* add some bottom margin */
+  }
+/* Style for table */
+.ui.table {
+    border-collapse: collapse;
+    width: 84.5%;
+    position: relative;
+    margin-left: 7.8%;
+    margin-bottom: 6.5%;
+}
+  /* Style for table head */
+  .ui.table thead th {
+    background-color:teal;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px;
+        text-align: left;
+        border: 2px solid teal;
+  }
+  
+  /* Style for table cells */
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style for odd rows */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for hover state */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for small screens */
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+    th, td {
+      padding: 5px;
+    }
+  }
+  

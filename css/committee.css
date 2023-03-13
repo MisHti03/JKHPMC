@@ -1,0 +1,42 @@
+.t1head  {
+    font-size: 15px; /* set the font size */
+    font-weight: bold; /* set the font weight to bold */
+    text-align: center; /* center align the text */
+    margin-bottom: 20px; /* add some bottom margin */
+  }
+    /* Apply styles to the table */
+    .ui.table {
+        border-collapse: collapse;
+        width: 84.5%;
+        position: relative;
+        margin-left: 7.8%;
+        margin-bottom: 6.5%;
+    }
+
+    /* Apply styles to the table header */
+    .ui.table thead th {
+        background-color:teal;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px;
+        text-align: left;
+        border: 2px solid teal;
+    }
+
+    /* Apply styles to the table body */
+    .ui.table tbody td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    /* Apply styles to the odd rows */
+    .ui.table tbody tr:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    /* Apply styles to the even rows */
+    .ui.table tbody tr:nth-child(even) {
+        background-color: #fff;
+    }
+
