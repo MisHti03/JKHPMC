@@ -1,0 +1,40 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 23%;
+    overflow: hidden;
+    margin-bottom: 2%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(89, 168, 224, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .image-text {
+    opacity: 1;
+  }
+  
