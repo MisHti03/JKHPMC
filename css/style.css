@@ -178,6 +178,7 @@ h6,
 }
 
 @media (min-width: 992px) {
+    
     .navbar-dark {
         position: absolute;
         width: 100%;
